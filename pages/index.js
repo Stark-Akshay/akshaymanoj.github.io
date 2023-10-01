@@ -1,4 +1,5 @@
 import ContactMe from "./components/ContactMe";
+import CustomFab from "./components/CustomFab";
 import Divider from "./components/Divider";
 import Experience from "./components/Experience";
 import Layout from "./components/Layout";
@@ -11,6 +12,8 @@ import Skills from "./components/Skills";
 
 
 export default function Home() {
+
+ 
   return (
     <>
       <Layout>
@@ -37,6 +40,8 @@ export default function Home() {
             <ContactMe/>
           </div>
           <Divider/>
+
+          <CustomFab />
         </main>
       </Layout>
     </>

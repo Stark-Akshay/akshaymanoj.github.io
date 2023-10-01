@@ -11,6 +11,7 @@ const CustomFab = () => {
             // Web Share API call
             await navigator.share({
               title: "Portfolio of Mr. Akshay Manoj",
+              text: "Check out this amazing portfolio",
               url:"https://stark-akshay.github.io/akshaymanoj.github.io/",
              
             });

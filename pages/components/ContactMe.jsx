@@ -10,7 +10,7 @@ const ContactMe = () => {
         <div className='flex flex-col items-center'>
             <div className='flex flex-col justify-center'>
             <div className='flex flex-row justify-start w-full items-center'>
-            <a href="mailto:akshaymanoj.dms@gmail.com?subject=Would%Love%20to%20hire%20you">  
+            <a href="mailto:akshaymanoj.dms@gmail.com?subject=Would%20Love%20to%20hire%20you">  
             <MdEmail className='text-text text-4xl'></MdEmail> </a>
             <a href="mailto:akshaymanoj.dms@gmail.com?subject=Would%Love%20to%20hire%20you" > <p className='px-4'>akshaymanoj.dms@gmail.com</p></a>
         </div>

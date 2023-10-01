@@ -14,7 +14,7 @@ const Footer = () => {
   <nav>
     <header class="footer-title">Contact Me</header> 
     <div className='flex min-[320px]:flex-col md:flex-row justify-around w-full'>
-    <a className='link link-hover' href="mailto:akshaymanoj.dms@gmail.com?subject=Would%Love%20to%20hire%20you" >  
+    <a className='link link-hover' href="mailto:akshaymanoj.dms@gmail.com?subject=Would%20Love%20to%20hire%20you" >  
             <MdEmail className='text-text text-4xl'></MdEmail> </a> 
             <a href="https://www.instagram.com/oneshortfocus" target="_blank">  
             <AiFillInstagram className='text-text text-4xl'></AiFillInstagram> </a>

@@ -12,6 +12,20 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation:{
+          comein: 'comein ease-in-out 5s',
+          blurr: 'blurr ease-out 5s',
+      },
+      keyframes:{
+        blurr:{
+          '0%':{'-webkit-filter':'blur(50px)'},
+          '70%':{'-webkit-filter':'blur(0px)'},
+        },
+        comein:{
+          '0%': {top: '-20rem'},
+          '20%': {top: '0rem'},
+        }
+      }
     },
     colors: {
       'text': '#e9dff1',

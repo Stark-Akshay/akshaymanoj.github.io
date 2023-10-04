@@ -1,4 +1,5 @@
-import { AnimatedBox } from "./components/AnimatedBox";
+import React from 'react'
+
 import ContactMe from "./components/ContactMe";
 import CustomFab from "./components/CustomFab";
 import Divider from "./components/Divider";
@@ -8,13 +9,9 @@ import Me from "./components/Me";
 import Projects from "./components/Projects";
 import Qualification from "./components/Qualification";
 import Skills from "./components/Skills";
+import AnimatedBox from './components/AnimatedBox';
 
-
-
-
-export default function Home() {
-
- 
+const second = () => {
   return (
     <>
     <AnimatedBox/>
@@ -49,3 +46,5 @@ export default function Home() {
     </>
   )
 }
+
+export default second

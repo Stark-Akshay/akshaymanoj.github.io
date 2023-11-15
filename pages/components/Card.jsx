@@ -8,7 +8,7 @@ const Card = (props) => {
       <h2 className="card-title">{props.title}</h2>
       <p>{props.desc1}</p>
       <p>{props.desc2}</p>
-      {props.code && <a className='w-full' href="https://github.com/Stark-Akshay/weatherapp"><button className='bg-ascent p-3 w-full rounded-lg flex items-center justify-center'>Code</button></a>}
+      {props.code && <a className='w-full' href="https://github.com/Stark-Akshay/weatherapp"><button className='bg-ascent p-3 w-full rounded-lg flex items-center justify-center'>View the project</button></a>}
       
     </div>
   </div>

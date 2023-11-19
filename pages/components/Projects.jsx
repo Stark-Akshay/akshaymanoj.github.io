@@ -12,7 +12,7 @@ const Projects = () => {
           desc1="Developed using Open weather map API and intergrated with Unsplash API. This complex integeration makes this weather app different than other weather apps."
            desc2="This app was a personal project of mine. The project is build using Next.js and Typescript. Axios was used for fetching the data according to the search."
            code="https://github.com/Stark-Akshay/weatherapp"
-           project="https://weatherapp-chi-nine.vercel.app/"
+           project="https://weatherapp-git-master-stark-akshay.vercel.app/"
            />
           <Card url="walking.jpg" title="Walking route finder" 
           desc1="Developed a user-centric web app, integrating Strava API and employing Google Maps and 

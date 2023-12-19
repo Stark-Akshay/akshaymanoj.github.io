@@ -21,7 +21,7 @@ const NavBar = () => {
         <Link  href="#Qualification">Qualification</Link>
         <Link  href="#Experience">Experience</Link>
         <Link href="#ContactMe">Contact Me</Link>
-        <a href="resume.pdf" passhref download='resume.pdf'><button className='bg-ascent p-3 rounded-lg flex items-center justify-center '>Resume</button></a>
+        <a href="resume.pdf" passhref download='Resume.pdf'><button className='bg-ascent p-3 rounded-lg flex items-center justify-center '>Resume</button></a>
         
       </div>        
     </div>
@@ -42,7 +42,7 @@ const NavBar = () => {
         <Link  href="#Qualification">Qualification</Link>
         <Link  href="#Experience">Experience</Link>
         <Link href="#ContactMe">Contact Me</Link>
-        <a href="resume.pdf" passhref download='resume.pdf'><button className='bg-second p-2 rounded-lg flex items-center justify-center '>Resume</button></a>
+        <a href="resume.pdf" passhref download='Resume.pdf'><button className='bg-second p-2 rounded-lg flex items-center justify-center '>Resume</button></a>
         
       </div>  
         </div>
